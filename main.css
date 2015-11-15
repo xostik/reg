@@ -1,0 +1,324 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-width {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+.b-info-panel {
+  background-color: #323232;
+  font-size: 8pt;
+}
+.b-info-panel_width {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+.b-info-panel_item {
+  display: inline-block;
+  padding: 11px 0;
+  color: #fff;
+  text-decoration: none;
+}
+.b-info-panel_item_whois {
+  margin-left: 26px;
+}
+.b-info-panel_item_contacts {
+  margin-left: 150px;
+}
+.b-info-panel_item_projects {
+  margin-left: 370px;
+}
+.b-info-panel_item_search {
+  margin-left: 32px;
+}
+.b-header {
+  background-color: #c3d1db;
+  height: 95px;
+}
+.b-header_width {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+.b-header_logo {
+  display: block;
+  float: left;
+  width: 229px;
+  height: 78px;
+  margin-left: -28px;
+  background-image: url(/img/regru_new.png);
+}
+.b-header_description {
+  float: left;
+  width: 400px;
+  margin-top: 14px;
+  margin-left: -3px;
+  font-size: 8pt;
+  line-height: 12pt;
+}
+.b-header_description_accent {
+  font-weight: bold;
+}
+.b-header .b-navigation {
+  clear: both;
+}
+.b-navigation {
+  background-color: #004b7f;
+  color: #fff;
+  border-radius: 7px;
+}
+.b-navigation_item {
+  position: relative;
+  float: left;
+}
+.b-navigation_item:hover .b-navigation_item-body {
+  display: block;
+}
+.b-navigation_item-title {
+  padding: 10px 21px;
+  font-size: 9pt;
+}
+.b-navigation_item-body {
+  cursor: pointer;
+  display: none;
+}
+.b-navigation_item-body-title {
+  position: absolute;
+  top: -8px;
+  left: -3px;
+  padding: 18px 25px 10px 25px;
+  background-color: #fff;
+  color: #004478;
+  font-size: 9pt;
+  box-shadow: 0 6px 9px #999999;
+  border-radius: 7px 7px 0 0;
+}
+.b-navigation_item-body-content {
+  position: absolute;
+  top: 34px;
+  left: -3px;
+  padding: 17px;
+  border-radius: 0 0 7px 7px;
+  background-color: #fff;
+  box-shadow: 0 6px 9px #999999;
+}
+.b-menu {
+  background: #f3f3f3;
+  padding: 8px 17px;
+  border-left: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  border-radius: 9px;
+  font-size: 10pt;
+  color: #2e353a;
+}
+.b-menu h3 {
+  font-size: 12pt;
+  color: #aa1c00;
+  margin: 0;
+}
+.b-menu_section {
+  margin-bottom: 15px;
+}
+.b-menu_section-item {
+  padding: 4px 0;
+  margin-left: 30px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 1px 0 0 #fff;
+}
+.b-menu_section-item:last-child {
+  border-bottom-width: 0;
+  box-shadow: none;
+}
+.b-menu_two-columns {
+  width: 589px;
+}
+.b-menu_column {
+  float: left;
+  width: 298px;
+}
+.b-menu_column:first-child {
+  width: 246px;
+}
+.clear {
+  clear: both;
+}

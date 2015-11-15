@@ -1,0 +1,16 @@
+{
+  "name": "reg",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-less": "latest"
+  },
+  "dependencies": {
+      "grunt": "~0.4.2",
+      "grunt-cli": "~0.1.9",
+      "grunt-contrib-less": "latest"
+  },
+  "scripts": {
+    "start": "node httpserver.js"
+  }
+}
